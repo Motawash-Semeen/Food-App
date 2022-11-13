@@ -1,0 +1,54 @@
+
+.banner {
+    position: relative;
+    background: url('../../Assets/images/bannerbackground.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 20rem 0rem;
+}
+
+.banner__input{
+    border: none;
+    padding: .8rem;
+    width: 80%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem; 
+    margin-left: 1.45rem;  
+}
+
+.banner__heading{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-normal);
+    font-family: var(--new-font);
+    margin-bottom: 2rem;
+}
+
+.banner__btn{
+    width: 15%;
+    text-align: center;
+    padding: .8rem 2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background-color: var(--title-color-dark);
+    color: var(--white-color);
+    margin-left: -1.9rem;
+}
+
+.banner__text{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
